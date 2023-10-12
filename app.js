@@ -4,28 +4,28 @@ const people = [
     lastName: "Gojo",
     class: "Special Grade",
     technique: "Limitless",
-    episode: []
+    episode: [3,6,5,7]
   },
   {
     firstName: "Suguru",
     lastName: "Geto",
     class: "Special Grade",
     technique: "Curse Spirit Manipulation",
-    episode: []
+    episode: [6,7,8,3]
   },
   {
     firstName: "Yuji",
     lastName: "Itadori",
     class: "1st Grade",
     technique: "Cursed Energy",
-    episode: []
+    episode: [2,5,7,3]
   },
   {
     firstName: "Megumi",
     lastName: "Fushiguro",
     class: "2nd Grade",
     technique: "Ten Shadows",
-    episode: []
+    episode: [1,2,5,4]
   },
   {
     firstName: "Yuta",
