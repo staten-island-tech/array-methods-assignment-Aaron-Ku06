@@ -43,3 +43,13 @@ const people = [
   },
 ];
 people.forEach((people) => console.log(people.firstName));
+people.forEach((people) => console.log(people.lastName));
+people.forEach((people) => console.log(people.class));
+people.forEach((people) => console.log(people.technique));
+const grades = people.filter((people) => people.class === "Special Grade")
+people.forEach((elements) => elements.episode.forEach((call) => console.log(call)));
+
+const power = people.filter(function(people){
+  return people.class = "Special Grade"
+});
+console.log(power);
