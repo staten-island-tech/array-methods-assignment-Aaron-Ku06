@@ -50,6 +50,6 @@ const grades = people.filter((people) => people.class === "Special Grade")
 people.forEach((elements) => elements.episode.forEach((call) => console.log(call)));
 
 const power = people.filter(function(people){
-  return people.class = "Special Grade"
+  return people.class === "Special Grade"
 });
 console.log(power);
